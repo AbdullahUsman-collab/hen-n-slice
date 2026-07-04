@@ -1,0 +1,12 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "git": {
+    "deploymentEnabled": {
+      "main": true
+    }
+  },
+  "buildCommand": "npx turbo build --filter=@hen-n-slice/web",
+  "outputDirectory": "apps/web/.next",
+  "framework": "nextjs",
+  "ignoreCommand": "npx turbo-ignore --fallback=HEAD^"
+}

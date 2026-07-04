@@ -1,0 +1,27 @@
+{
+  "name": "@hen-n-slice/mobile",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "lint": "expo lint",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@hen-n-slice/types": "workspace:*",
+    "@hen-n-slice/ui-tokens": "workspace:*",
+    "@hen-n-slice/api-client": "workspace:*",
+    "@hen-n-slice/business-logic": "workspace:*",
+    "@hen-n-slice/config": "workspace:*",
+    "expo": "~51.0.0",
+    "expo-router": "~3.5.0",
+    "react": "^18.3.0",
+    "react-native": "^0.74.0",
+    "zustand": "^4.5.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}
