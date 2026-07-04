@@ -1,0 +1,3 @@
+{
+  "buildCommand": "npx turbo build --filter=@hen-n-slice/web"
+}
